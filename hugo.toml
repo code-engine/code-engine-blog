@@ -1,0 +1,46 @@
+baseURL = 'https://codeengine.io/'
+languageCode = 'en-gb'
+title = 'Code Engine'
+theme = 'PaperMod'
+paginate = 5
+
+[markup.highlight]
+  style = "catppuccin-macchiato"
+
+[params]
+  author = "Dan Weinberg"
+  description = "Engineering at scale"
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowToc = false
+  ShowCodeCopyButtons = false
+
+# Uncomment to enable home-info mode (bio above post list)
+# [params.homeInfoParams]
+#   Title = "Hi, I'm Dan"
+#   Content = "Writing about engineering at scale."
+
+# Uncomment to enable profile mode (centered avatar + links)
+# [params.profileMode]
+#   enabled = false
+#   title = "Dan Weinberg"
+#   subtitle = "Engineering at scale"
+#   imageUrl = "avatar.png"   # place image in static/
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  # [[menu.main]]
+  #   name = "Search"
+  #   url = "/search/"
+  #   weight = 2

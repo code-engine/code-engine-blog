@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Catppuccin Macchiato-aligned dark theme */
+:root[data-theme=dark] {
+    --theme: #24273a;        /* base */
+    --entry: #1e2030;        /* mantle */
+    --primary: #cad3f5;      /* text */
+    --secondary: #a5adcb;    /* subtext */
+    --tertiary: #363a4f;     /* surface 0 */
+    --content: #cad3f5;      /* text */
+    --code-block-bg: #1e2030;
+    --code-bg: #363a4f;
+    --border: #363a4f;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+}
+
+.md-content pre code {
+    padding: 20px !important;
+}
+
+.post-title { font-size: 28px !important; }
+.page-header h1 { font-size: 28px !important; }
+.first-entry .entry-header h2 { font-size: 28px !important; }
+.md-content h1 { font-size: 28px !important; }
+.md-content h2 { font-size: 22px !important; }
+.md-content h3 { font-size: 18px !important; }
+.md-content h4 { font-size: 15px !important; }
