@@ -1,8 +1,11 @@
 baseURL = 'https://codeengine.io/'
 languageCode = 'en-gb'
-title = 'Code Engine'
+title = 'CODE ENGINE'
 theme = 'PaperMod'
 paginate = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [markup.highlight]
   style = "catppuccin-macchiato"
@@ -19,17 +22,17 @@ paginate = 5
   ShowToc = false
   ShowCodeCopyButtons = false
 
-# Uncomment to enable home-info mode (bio above post list)
-# [params.homeInfoParams]
-#   Title = "Hi, I'm Dan"
-#   Content = "Writing about engineering at scale."
+[params.homeInfoParams]
+  Title = "Hi, I'm Dan"
+  Content = """
+I'm a staff engineer and SRE with over 20 years of commercial experience. I build large-scale distributed data and AI platforms, working across the full stack from infrastructure to application.
 
-# Uncomment to enable profile mode (centered avatar + links)
-# [params.profileMode]
-#   enabled = false
-#   title = "Dan Weinberg"
-#   subtitle = "Engineering at scale"
-#   imageUrl = "avatar.png"   # place image in static/
+My work has spanned financial services, commodities trading, and AI. Notable projects include the on-the-night donations platform for Comic Relief, data platforms for commodity trading firms, AI-enabled data applications, and high-availability and HPC infrastructure for banks and trading houses.
+
+I write about systems engineering, reliability, infrastructure, and whatever else I'm thinking about.
+
+**Skills:** C++, Rust, Go, Python, Linux/Unix, Networking, Kubernetes, Cloud (public and private), IaC, Spark, vLLM, LLMs, ML/MLOps/LLMOps, DevOps, SRE
+"""
 
 [menu]
   [[menu.main]]
@@ -37,10 +40,6 @@ paginate = 5
     url = "/posts/"
     weight = 1
   [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
+    name = "Search"
+    url = "/search/"
     weight = 2
-  # [[menu.main]]
-  #   name = "Search"
-  #   url = "/search/"
-  #   weight = 2
