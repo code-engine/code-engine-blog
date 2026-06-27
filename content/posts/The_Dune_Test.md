@@ -1,6 +1,6 @@
 ---
 title: "The Dune Test"
-date: 2026-06-03
+date: 2026-06-08
 draft: false
 tags: ["ai", "llm"]
 description: "LLMs don't lie. They hallucinate. Understanding this will help you use them better and design your systems for greater accuracy."

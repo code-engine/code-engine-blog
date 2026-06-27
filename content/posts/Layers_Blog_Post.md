@@ -1,6 +1,6 @@
 ---
 title: "The 5 Layers and 5 Concerns of Modern AI"
-date: 2026-06-03
+date: 2026-06-01
 draft: false
 tags: ["ai", "engineering"]
 description: "The modern AI landscape is sprawling and growing (very) fast. Here are the 5 layers and 5 concerns I use every day to make sense of it."
