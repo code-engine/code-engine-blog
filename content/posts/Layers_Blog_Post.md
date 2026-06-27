@@ -14,30 +14,24 @@ Below I've shared my thinking in two sections: 5 layers and 5 concerns that I us
 
 The 5 core layers attempts to cover the complete landscape of AI today:
 
-1. **Application**: what does the user see and interact with?
-   Products, integrations, APIs, productivity tools, coding assistants, consumer applications.
-2. **Orchestration**: how is the model directed and coordinated?
-   Agents, multi-agent workflows, prompt engineering, LangChain/LangGraph, model routing, hybrid local/remote workflows, multi-model pipelines.
-3. **Model**: what intelligence is being used and how is it configured?
-   Model selection, training, fine-tuning, inference serving, self-hosted vs API, local vs remote.
-4. **Access**: how does the model reach the world beyond its training?
-   MCP, RAG, knowledge graphs, context graphs, embeddings, tool calls, APIs, memory retrieval.
-5. **Data**: what information exists and where does it live?
-   Relational databases, blob stores, vector stores, data lakes, lakehouses, time-series databases, websites, unstructured data.
+| Layer | Question | Examples |
+|---|---|---|
+| **Application** | What does the user see and interact with? | Products, integrations, APIs, productivity tools, coding assistants, consumer applications |
+| **Orchestration** | How is the model directed and coordinated? | Agents, multi-agent workflows, prompt engineering, LangChain/LangGraph, model routing, hybrid local/remote workflows, multi-model pipelines |
+| **Model** | What intelligence is being used and how is it configured? | Model selection, training, fine-tuning, inference serving, self-hosted vs API, local vs remote |
+| **Access** | How does the model reach the world beyond its training? | MCP, RAG, knowledge graphs, context graphs, embeddings, tool calls, APIs, memory retrieval |
+| **Data** | What information exists and where does it live? | Relational databases, blob stores, vector stores, data lakes, lakehouses, time-series databases, websites, unstructured data |
 
 ## The 5 Concerns
 
 The next five are related but separate concerns that a business or adopter of AI should be thinking about.
 
-1. **Capability**: what can we do, and why does it matter?
-   Industry capability frontier, organisational maturity, adoption readiness, use case selection, skills and talent, strategic intent.
-2. **Economics**: is it worth doing, and can we afford it?
-   Cost of inference, infrastructure spend, build vs buy decisions, ROI, investment prioritisation, pricing models.
-3. **Controls**: how do we protect and constrain it?
-   Access control, data security, guardrails, misuse prevention, prompt injection, audit trails, cyber threats.
-4. **Operability**: how do we run and sustain it?
-   Observability, monitoring, MLOps/LLMOps, scalability, reliability, incident response, testing and evaluation, performance.
-5. **Governance**: how do we keep ourselves accountable for it?
-   Ethics, compliance, regulation, responsible AI policy, model risk, bias and fairness, explainability, data governance.
+| Concern | Question | Examples |
+|---|---|---|
+| **Capability** | What can we do, and why does it matter? | Industry capability frontier, organisational maturity, adoption readiness, use case selection, skills and talent, strategic intent |
+| **Economics** | Is it worth doing, and can we afford it? | Cost of inference, infrastructure spend, build vs buy decisions, ROI, investment prioritisation, pricing models |
+| **Controls** | How do we protect and constrain it? | Access control, data security, guardrails, misuse prevention, prompt injection, audit trails, cyber threats |
+| **Operability** | How do we run and sustain it? | Observability, monitoring, MLOps/LLMOps, scalability, reliability, incident response, testing and evaluation, performance |
+| **Governance** | How do we keep ourselves accountable for it? | Ethics, compliance, regulation, responsible AI policy, model risk, bias and fairness, explainability, data governance |
 
 I use these every single day when discussing AI with clients, from strategy to technical implementation. I've refined and tweaked this over the last 6 months or so. In upcoming posts, I'll likely refer back to these lists a lot. I've found it a very useful model. I hope you will too.
